@@ -1,3 +1,4 @@
+
 def fib(n):
 	a = []
 	a.append(0)
@@ -7,3 +8,8 @@ def fib(n):
 		a.append(a[i-1] + a [i - 2])
 	
 	return a
+
+
+for i in range(2, 10):
+	print(i)
+
